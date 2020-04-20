@@ -10,7 +10,7 @@ def main():
     st.header('Classification')
 
     # File Selector
-    def file_selector(folder_path='.\dataset'):
+    def file_selector(folder_path='./dataset'):
         file_list = os.listdir(folder_path)
         selected_filename = st.selectbox('Select a Dataset', file_list)
         return os.path.join(folder_path, selected_filename)
