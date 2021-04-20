@@ -70,7 +70,7 @@ preshed==3.0.2
 prometheus-client==0.7.1
 prompt-toolkit==3.0.5
 protobuf==3.11.3
-py==1.8.1
+py==1.10.0
 pycountry==19.8.18
 pydeck==0.3.0
 Pygments==2.6.1
